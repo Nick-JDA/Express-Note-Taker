@@ -1,7 +1,6 @@
 const express = require('express');
 const path = require('path');
 const { clog } = require('./middleware/clog');
-//const api = require('./routes/index');
 const notes = require('./routes/notes');
 const html = require('./routes/html');
 
